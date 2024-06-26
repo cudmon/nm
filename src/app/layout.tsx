@@ -30,6 +30,7 @@ export default function Layout({ children }: Readonly<Props>) {
     <html className={jost.className} lang="en">
       <head>
         <ColorSchemeScript defaultColorScheme="auto" />
+        <meta name="google-adsense-account" content="ca-pub-7182838395377099" />
       </head>
       <body>
         <MantineProvider defaultColorScheme="auto" theme={theme}>
