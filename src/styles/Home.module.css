@@ -1,0 +1,19 @@
+.card {
+  transition: all 0.2s linear;
+  box-shadow: var(--mantine-shadow-xs);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: var(--mantine-shadow-sm);
+
+  @mixin light {
+    color: var(--mantine-color-gray-0);
+    background-color: var(--mantine-color-blue-6);
+  }
+
+  @mixin dark {
+    color: var(--mantine-color-gray-0);
+    background-color: var(--mantine-color-blue-8);
+  }
+}

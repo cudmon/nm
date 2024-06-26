@@ -1,0 +1,42 @@
+{
+  "name": "@tonsak/nm",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write src"
+  },
+  "author": {
+    "email": "tonsak.gs@gmail.com",
+    "name": "Tonsak Cudmon",
+    "url": "https://tonsak.me"
+  },
+  "dependencies": {
+    "@next/third-parties": "^14.2.4",
+    "next": "^13.5.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@mantine/core": "^7.1.7",
+    "@mantine/hooks": "^7.1.7",
+    "@mantine/notifications": "^7.1.7",
+    "@observablehq/plot": "^0.6.11",
+    "@tabler/icons-react": "^2.40.0",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "axios": "^1.6.0",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^13.5.6",
+    "nerdamer": "^1.1.13",
+    "postcss": "^8.4.31",
+    "postcss-preset-mantine": "^1.9.0",
+    "postcss-simple-vars": "^7.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
